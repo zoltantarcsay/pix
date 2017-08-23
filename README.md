@@ -2,6 +2,7 @@
 
 > Upload your stuff
 
+<a href="https://ibb.co/kZ7wNQ"><img src="https://preview.ibb.co/n7hVhQ/Screen_Shot_2017_08_23_at_20_35_32.png" alt="Screen_Shot_2017_08_23_at_20_35_32" border="0"></a>
 ## Build and Start Locally
 
 - Make sure Node.js is installed (recommended at least version 6.x).
@@ -21,7 +22,7 @@ Requires at least Docker 17.05.
 
 ### Build
 
-To build the app in Docker, jus run `docker build .` as normal. 
+To build the app in Docker, jus run `docker build -t pix .` as normal. 
 This will build the client and server apps in the first stage 
 and copy the artifacts to the production container in the second stage.
 
