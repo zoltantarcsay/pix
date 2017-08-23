@@ -2,6 +2,8 @@
 
 > Upload your stuff
 
+Pix is a simple full stack file upload service powered by Node.js and Angular. 
+
 <img src="https://image.ibb.co/gwLGNQ/Screen_Shot_2017_08_23_at_20_35_32.png" alt="Screen Shot 2017 08 23 at 20 35 32" border="0" />
 
 ## Build and Start Locally
