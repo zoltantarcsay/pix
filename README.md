@@ -2,7 +2,8 @@
 
 > Upload your stuff
 
-<a href="https://ibb.co/kZ7wNQ"><img src="https://preview.ibb.co/n7hVhQ/Screen_Shot_2017_08_23_at_20_35_32.png" alt="Screen_Shot_2017_08_23_at_20_35_32" border="0"></a>
+<img src="https://image.ibb.co/gwLGNQ/Screen_Shot_2017_08_23_at_20_35_32.png" alt="Screen Shot 2017 08 23 at 20 35 32" border="0" />
+
 ## Build and Start Locally
 
 - Make sure Node.js is installed (recommended at least version 6.x).
