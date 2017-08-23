@@ -9,14 +9,15 @@ describe('PicComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PicComponent, BytesPipe ]
+      declarations: [PicComponent, BytesPipe]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {
     fixture = TestBed.createComponent(PicComponent);
     component = fixture.componentInstance;
+    component.pic = { name: '', url: '', createdAt: '', id: '', mimetype: '', size: 0 };
     fixture.detectChanges();
   });
 
