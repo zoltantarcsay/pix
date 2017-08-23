@@ -1,0 +1,8 @@
+<div class="card">
+  <img class="card-img-top" [src]="pic.url" [alt]="pic.name">
+  <div class="card-body">
+    <p class="card-text">
+      <a [href]="pic.url">{{pic.name}}</a> <small>{{pic.size | bytes}}</small>
+    </p>
+  </div>
+</div>

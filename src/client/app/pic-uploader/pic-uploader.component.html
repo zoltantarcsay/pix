@@ -1,0 +1,17 @@
+<div class="progress mb-3">
+  <div class="progress-bar" role="progressbar" [ngClass]="{'bg-success': complete}"
+       [ngStyle]="{width: uploader.progress + '%'}" style="height: 2px"></div>
+</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col">
+      <div class="form-group">
+        <div>
+          <label class="btn btn-outline-light">📂 Select files...
+            <input type="file" ng2FileSelect [uploader]="uploader" multiple hidden/>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

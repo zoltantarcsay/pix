@@ -1,0 +1,9 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="card-deck m-0">
+      <div class="col-sm-6 col-md-4 col-lg-3 m-0 p-0 py-3" *ngFor="let pic of pics | async">
+        <app-pic [pic]="pic"></app-pic>
+      </div>
+    </div>
+  </div>
+</div>

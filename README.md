@@ -1,28 +1,33 @@
 # Pix
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.0.
+> Upload your stuff
 
-## Development server
+## Build and Start Locally
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Make sure Node.js is installed (recommended at least version 6.x).
+- Install the dependencies by running `npm install`
+- To build locally, run `npm run build`
+- To start, run `npm start`
 
-## Code scaffolding
+## Develop
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Once the dependencies have are installed, run `npm run start:dev` 
+to start dev servers for both the server and the client.
+The client can be accessed on port `4200`.
 
-## Build
+## Docker
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Requires at least Docker 17.05.
 
-## Running unit tests
+### Build
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+To build the app in Docker, jus run `docker build .` as normal. 
+This will build the client and server apps in the first stage 
+and copy the artifacts to the production container in the second stage.
 
-## Running end-to-end tests
+This method runs everything in Docker, which means that Node.js or dependencies 
+are not required locally.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+### Run
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+To start the container, run `docker run --name pix --rm -d -p 3000:3000 pix` 
